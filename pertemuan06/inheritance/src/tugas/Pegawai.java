@@ -35,6 +35,5 @@ public class Pegawai {
         System.out.println("Nama\t: " + getNama());
         System.out.println("Alamat\t: " + getAlamat());
         System.out.println("Gaji\t: " + getGaji());
-        System.out.println();
     }
 }

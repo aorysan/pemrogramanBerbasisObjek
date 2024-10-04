@@ -20,6 +20,13 @@ public class Dosen extends Pegawai {
     }
 
     public void setSKS(int sks) {
-        this.tarifSKS = sks;
+        this.jumlahSKS = sks;
+    }
+
+    public void print() {
+        System.out.println("SKS\t: " + getSKS());
+        System.out.println("Tarif\t: " + getTarif());
+        super.print();
+        System.out.println();
     }
 }
