@@ -94,4 +94,9 @@ public class Player {
     public int getWaktuPanen(int index) {
         return lahan.getTempat(index).getWaktu();
     }
+
+    public void displayStatus() {
+        System.out.println("Uang : " + this.uang);
+        System.out.println("Energi : " + this.energi);
+    }
 }

@@ -76,7 +76,18 @@ public class Main {
                     break;
 
                 case 3:
-                    mc.displayInventory();
+                    System.out.println("1. Lahan");
+                    System.out.println("2. Karakter");
+                    System.out.println("3. Inventory");
+                    choice = sci.nextInt();
+
+                    if(choice == 1) {
+                        mc.displayLahan();
+                    } else if (choice == 2) {
+                        mc.displayStatus();
+                    } else {
+                        mc.displayInventory();
+                    }
                     System.out.println();
                     break;
 
@@ -93,7 +104,7 @@ public class Main {
     static void menu() {
         System.out.println("1. Toko");
         System.out.println("2. Plant");
-        System.out.println("3. Lihat inventory");
+        System.out.println("3. Status");
         System.out.println("4. Istirahat");
         System.out.println("5. Keluar");
         System.out.print("Silahkan pilih menu Anda : ");
