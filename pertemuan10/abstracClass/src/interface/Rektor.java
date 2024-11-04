@@ -41,5 +41,4 @@ public class Rektor {
 
         System.out.println("-----------------------------------------");
     }
-    
 }
